@@ -1,7 +1,7 @@
 {
     "IntroSection": {
         "hello_im": "Hi, my name is",
-        "name": "Dane Quest",
+        "name": "Carlos",
         "short_intro": "I enjoy exploring new things...",
         "download_cv": "Download CV",
         "blog": "Blog"
@@ -13,6 +13,6 @@
         "skills": "Skills"
     },
     "AboutSection": {
-        "desc": "Hello everyone, I am a passionate person who loves learning and exploration. Now I am an undergraduate majoring in electrical engineering. Although my professional background is more traditional engineering, I have a strong interest in emerging technology fields, especially AI, programming and development."
+        "desc": "Hello everyone, I am a passionate person who loves learning and exploration. I am currently a third year software engineering student. I have a strong interest in emerging technological fields, especially front-end interaction and artificial intelligence, as well as 3D web development."
     }
 }

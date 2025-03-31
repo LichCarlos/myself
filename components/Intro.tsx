@@ -2,8 +2,8 @@
 
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { BsArrowRight, BsLinkedin,  BsMusicNoteBeamed,  } from "react-icons/bs"
-import { HiDownload,  } from "react-icons/hi"
+import { BsArrowRight, BsLinkedin, BsMusicNoteBeamed, } from "react-icons/bs"
+import { HiDownload, } from "react-icons/hi"
 import { FaGithubSquare, FaEnvelope, FaFileWord } from "react-icons/fa"
 import { FaBilibili } from "react-icons/fa6";
 import Link from "next/link"
@@ -27,7 +27,7 @@ export default function Intro() {
   return (
     <section
       ref={ref}
-      className="mb-10 max-w-[50rem] text-center sm:mb-0 scroll-mt-28 pt-[7rem]"
+      className="mb-10 max-w-[50rem] text-center sm:mb-0 scroll-mt-28 pt-[7rem] mt-10"
       id="home"
     >
       <div className="flex items-center justify-center">
@@ -38,10 +38,10 @@ export default function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src="/profile.png"
+              src="/logo.png"
               alt="developer-image"
-              width="250"
-              height="250"
+              width="350"
+              height="350"
               quality="95"
               priority={true}
               className="h-28 w-28 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
@@ -128,18 +128,6 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        {/* <Link
-          href="#contact"
-          onClick={() => {
-            setActiveSection("Contact")
-            setTimeOfLastClick(Date.now())
-          }}
-          className="group bg-gray-900 px-4 py-2 text-sm sm:text-lg text-white sm:px-7 sm:py-3 flex items-center gap-2  rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-        >
-          Contact me here
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-        </Link> */}
-
         <Link
           target="_blank"
           className="bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
@@ -155,43 +143,29 @@ export default function Intro() {
         </Link>
         <a
           className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/spongeYuqi"
+          href="https://github.com/LichCarlos"
           target="_blank"
         >
           <FaGithubSquare />
         </a>
         <a
           className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://music.163.com/#/user/home?id=7816209974"
-          target="_blank"
-        >
-          <BsMusicNoteBeamed />
-        </a>
-        <a
-          className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://space.bilibili.com/1994639130?spm_id_from=333.1007.0.0"
+          href="https://space.bilibili.com/3546840882481998?spm_id_from=333.1007.0.0"
           target="_blank"
         >
           <FaBilibili />
         </a>
         <a
           className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="mailto:2280356057@qq.com"
+          href="mailto:1434419455@qq.com"
           target="_blank"
         >
           <FaEnvelope />
         </a>
-        <Link
-          
-          className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="/部署教程指南.docx"
-          download
-        >
-          <FaFileWord />
-        </Link>
+
         <a
           className=" bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2  rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://spongebob.vip"
+          href="https://lichcarlos-blog.netlify.app/"
           target="_blank"
         >
           {t("blog")}
