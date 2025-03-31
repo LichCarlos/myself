@@ -58,13 +58,13 @@ export default function About() {
           <div className="flex flex-col gap-2">
             <div>
               <span className="text-xl md:text-2xl font-bold italic">hello everyone!</span>
-              <span className="text-xl md:text-2xl font-bold">😘</span>I'm 🌟 A Full Stack Dreamer Drawing with Code</div>
-            <span className="md:text-1xl font-bold ">Life's goal: Long live the People's Republic of China! Long live the great unity of the people of the world!</span>
+              <span className="text-xl md:text-2xl font-bold">😘</span>I&apos;m 🌟 A Full Stack Dreamer Drawing with Code</div>
+            <span className="md:text-1xl font-bold ">Life&apos;s goal: Long live the People&apos;s Republic of China! Long live the great unity of the people of the world!</span>
             <div >
               My major is software engineering, and my educational background leans towards backend development 📟， But I am interested in emerging interactive experiences, especially front-end programming, 3D rendering AI、 And development 💻 In terms of other aspects.
               Facing the upcoming graduation and future job, I am working hard 💪 Find your own path, create your own value through labor, and come into this world 🌏 Leave traces.
             </div>
-            <div>Although I haven't entered the workplace yet, I have accumulated rich experience through roles such as front-end and back-end development, and product manager ✨， And serve as the head of the laboratory to enhance one's leadership skills 💪 Ability to collaborate with a team.
+            <div>Although I haven&apos;t entered the workplace yet, I have accumulated rich experience through roles such as front-end and back-end development, and product manager ✨， And serve as the head of the laboratory to enhance one&apos;s leadership skills 💪 Ability to collaborate with a team.
               Looking ahead to the future, I plan to 💫 Conduct in-depth research on new front-end technologies, such as responsive design and web performance optimization, to build websites with excellent user experience 🔥；
               Actively participate in open-source front-end projects, broaden technical horizons, and enhance practical capabilities 🛠️；
               Adhere to the spirit of open source 💡， Explore front-end innovation with like-minded friends.

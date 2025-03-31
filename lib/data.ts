@@ -166,12 +166,27 @@ export const experiencesDataZn = [
         "description": "当项目进度无法推进时，我重新拜读《人月神话》，并从中汲取灵感——“如外科手术般精准的团队”。基于此理念，我重整自己,寻找自己的发展方向，获得实验室指导老师认可，上任鹅城（划掉）实验室部长一职",
         "icon": React.createElement(FaUsers),
         "date": "2024年5月 - 2025年5月"
-    }, {
+    },
+    {
         "title": '"path" -> "diff"',
         "location": "技术差的异化渲染",
         "description": "重新审视技术栈后，加入React这个更加权威的圈子。至此决定专注于前端开发，在此基础上学习了Next.js，跟随开源社区完成了多个开源项目的开发与部署，进一步巩固了自己的技术能力。",
         "icon": React.createElement(FaCodeBranch),
         "date": "2024年8月 - 至今"
+    },
+    {
+        "title": '"path" -> "diff"',
+        "location": "技术差的异化渲染",
+        "description": "重新审视技术栈后，加入React这个更加权威的圈子。至此决定专注于前端开发，在此基础上学习了Next.js，跟随开源社区完成了多个开源项目的开发与部署，进一步巩固了自己的技术能力。",
+        "icon": React.createElement(FaCodeBranch),
+        "date": "2024年8月 - 至今"
+    },
+    {
+        "title": '个人网站',
+        "location": "www.lichcarlos.top",
+        "description": "在做开源项目的同时，萌生出想要拥有自己的个人网站，于是在b站寻找教程，在阿里云购买域名、服务器最终将本网站搭建上线。特别感谢b站富有开源精神的大佬。我也会努力成为照亮别人的光",
+        "icon": React.createElement(FaCodeBranch),
+        "date": "2024年12月 - 2025年4月"
     }
 ]
 export const experiencesData = [
@@ -209,5 +224,12 @@ export const experiencesData = [
         "description": "After reassessing my tech stack, I joined the React ecosystem. Focusing on frontend development, I mastered Next.js and contributed to multiple open-source projects, solidifying my technical expertise through community collaboration.",
         "icon": React.createElement(FaCodeBranch),
         "date": "August 2024 – Present"
+    },
+    {
+        "title": "Personal Website",
+        "location": "www.lichcarlos.top",
+        "description": "While working on open-source projects, I had the idea of creating my own personal website. I followed tutorials on Bilibili and purchased a domain name and server from Alibaba Cloud to bring this website online. Special thanks to the generous open-source experts on Bilibili. I will also strive to become a light that illuminates others.",
+        "icon": "FaCodeBranch", // Assuming React.createElement(FaCodeBranch) refers to an icon component
+        "date": "December 2024 - April 2025"
     }
 ]

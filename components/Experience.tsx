@@ -53,7 +53,7 @@ export default function Experience({ isMobile }: { isMobile: boolean }) {
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
               variants={variants[index % 2 === 0 ? "right" : "left"]}
-              className="mb-20"
+              style={{ marginBottom: "20px" }} // 使用style替代className
             >
               <VerticalTimelineElement
                 position={index % 2 === 0 ? "left" : "right"}
