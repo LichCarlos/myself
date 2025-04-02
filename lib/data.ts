@@ -105,7 +105,7 @@ export const projectsData = [
 ]
 
 export const skillsData = [
-    "THML",
+    "HTML",
     "CSS",
     "sass",
     "styled-components",
@@ -166,13 +166,6 @@ export const experiencesDataZn = [
         "description": "当项目进度无法推进时，我重新拜读《人月神话》，并从中汲取灵感——“如外科手术般精准的团队”。基于此理念，我重整自己,寻找自己的发展方向，获得实验室指导老师认可，上任鹅城（划掉）实验室部长一职",
         "icon": React.createElement(FaUsers),
         "date": "2024年5月 - 2025年5月"
-    },
-    {
-        "title": '"path" -> "diff"',
-        "location": "技术差的异化渲染",
-        "description": "重新审视技术栈后，加入React这个更加权威的圈子。至此决定专注于前端开发，在此基础上学习了Next.js，跟随开源社区完成了多个开源项目的开发与部署，进一步巩固了自己的技术能力。",
-        "icon": React.createElement(FaCodeBranch),
-        "date": "2024年8月 - 至今"
     },
     {
         "title": '"path" -> "diff"',
