@@ -65,6 +65,16 @@ export const projectsData = [
         demoUrl: 'https://github.com/LichCarlos/mianshihu-backend',
     },
     {
+        title: "airbnb",
+        title_zh: '爱彼迎',
+        description:
+            "This personal tech blog uses Vitepress and Vite, integrates Baidu Statistics for visitor analysis, optimizes SEO with indexing, adopts Giscus for comments, and is deployed on Netlify.",
+        desc_zh: "React18项目、仿爱彼迎制作的租房系统",
+        tags: ["Vitepress", "Vite", "百度统计", "Git", "Netlify", "MarkDown", "medium"],
+        imageUrl: blog,
+        demoUrl: 'https://lichcarlos-blog.netlify.app/',
+    },
+    {
         title: "Personal Technology Sharing and Laboratory Training Blog Based on Vitepress",
         title_zh: '基于vitepress的个人技术分享兼实验室培训博客',
         description:
@@ -91,6 +101,16 @@ export const projectsData = [
         tags: ["Nextjs", "Tiptap", "convex", "clerk", "vercel"],
         imageUrl: docs,
         demoUrl: 'https://google-docs-xlr3-git-vercel-chaihaotians-projects.vercel.app/',
+    },
+    {
+        title: "ai-navi",
+        title_zh: '拥抱ai',
+        description:
+            "This is an AI navigation station implemented based on Next.js, which facilitates quick positioning and learning using AI tools. Build using Next.exe and Typescript, and use Netlify as the deployment platform.",
+        desc_zh: "这是一个基于 Next.js实现的ai导航站，便于快速定位使用ai工具学习。使用Next.js和Typescript构建，并使用Netlify作为部署平台。",
+        tags: ["react", "TS", "Netlify", "Nextjs"],
+        imageUrl: aina,
+        demoUrl: 'https://ainavi.netlify.app/',
     },
     {
         title: "ai-navi",
