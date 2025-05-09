@@ -112,16 +112,6 @@ export const projectsData = [
         imageUrl: aina,
         demoUrl: 'https://ainavi.netlify.app/',
     },
-    {
-        title: "ai-navi",
-        title_zh: 'ai导航站',
-        description:
-            "This is an AI navigation station implemented based on Next.js, which facilitates quick positioning and learning using AI tools. Build using Next.exe and Typescript, and use Netlify as the deployment platform.",
-        desc_zh: "这是一个基于 Next.js实现的ai导航站，便于快速定位使用ai工具学习。使用Next.js和Typescript构建，并使用Netlify作为部署平台。",
-        tags: ["react", "TS", "Netlify", "Nextjs"],
-        imageUrl: aina,
-        demoUrl: 'https://ainavi.netlify.app/',
-    },
 ]
 
 export const skillsData = [
@@ -188,7 +178,7 @@ export const experiencesDataZn = [
         "date": "2024年5月 - 2025年5月"
     },
     {
-        "title": '"path" -> "diff"',
+        "title": "'Vue'->'React'",
         "location": "技术差的异化渲染",
         "description": "重新审视技术栈后，加入React这个更加权威的圈子。至此决定专注于前端开发，在此基础上学习了Next.js，跟随开源社区完成了多个开源项目的开发与部署，进一步巩固了自己的技术能力。",
         "icon": React.createElement(FaCodeBranch),
@@ -232,7 +222,7 @@ export const experiencesData = [
         "date": "May 2024 – May 2025"
     },
     {
-        "title": "‘path’ → ‘diff’",
+        "title": "‘Vue’ → ‘React’",
         "location": "Technical Reconciliation Rendering",
         "description": "After reassessing my tech stack, I joined the React ecosystem. Focusing on frontend development, I mastered Next.js and contributed to multiple open-source projects, solidifying my technical expertise through community collaboration.",
         "icon": React.createElement(FaCodeBranch),

@@ -133,8 +133,8 @@ export default function Intro() {
           className="bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href={
             activeLocale == "en"
-              ? "/灰白色现代风应届生求职简历.pdf"
-              : "/灰白色现代风应届生求职简历.pdf"
+              ? "/柴浩天-前端开发-15364618436-chaihaotian5173@163.com.pdf"
+              : "/柴浩天-前端开发-15364618436-chaihaotian5173@163.com.pdf"
           }
           locale={false}
         >
@@ -173,6 +173,6 @@ export default function Intro() {
           {/* <FaGithubSquare /> */}
         </a>
       </motion.div>
-    </section>
+    </section >
   )
 }

@@ -8,8 +8,8 @@ export default function NotFound() {
           <h1 className="font-semibold"> 出了点问题！</h1>
           <br />
           <br />
-          尝试在路径的开头添加“en”。例如:
-          localhost:3000/en
+          尝试在路径的开头添加“zh”。例如:
+          localhost:3000/zh
         </div>
       </body>
     </html>

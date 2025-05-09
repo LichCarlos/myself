@@ -27,10 +27,10 @@ export default function middleware(req: NextRequest) {
 
     //console.log('Effective Locale:', effectiveLocale); // 调试信息
 
-    // 如果是根路径，则重定向到/en
+    // 如果是根路径，则重定向到/zh
     if (req.nextUrl.pathname === '/') {
         const url = req.nextUrl.clone();
-        url.pathname = '/en';
+        url.pathname = '/zh';
         return NextResponse.redirect(url);
     }
 
